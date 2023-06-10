@@ -578,10 +578,10 @@ span {
     width: 60%;
 }
 .proj-img{
-    margin-left: 100px;
-    padding: 100px;
-    width: 1500px;
-    height: 800px;
+    margin-left: 10vw;
+    padding: 1vw;
+    width: 80vw;
+    height: 50vmax;
 }
 .proj-text{
     text-align: center;
@@ -825,6 +825,7 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 768px) {
+
     .header {
         background: var(--bg-color);
     }
@@ -910,17 +911,7 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-@media (max-width: 462px) {
-    body{
-        max-width: 412px;
-    }
-    .proj-img{
-        padding:10px;
-        width: 300px;
-        height: 400px;
-        margin: 40px;
-    }
-    
+@media (max-width: 462px) {  
     .header{
         width: 100vw;
     }
